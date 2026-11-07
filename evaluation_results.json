@@ -1,0 +1,82 @@
+{
+    "1. Original MiniFASNet (Baseline)": {
+        "Accuracy": 1.0,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1": 1.0,
+        "ROC-AUC": 1.0,
+        "APCER": 0.0,
+        "BPCER": 0.0,
+        "ACER": 0.0,
+        "FAR": 0.0,
+        "FRR": 0.0,
+        "Avg_Latency_ms": 363.39,
+        "Confusion_Matrix": {
+            "TN": 4,
+            "FP": 0,
+            "FN": 0,
+            "TP": 2
+        },
+        "CM_Plot": "confusion_matrix_original_minifasnet_baseline.png"
+    },
+    "2. MiniFASNet + Temporal": {
+        "Accuracy": 1.0,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1": 1.0,
+        "ROC-AUC": 1.0,
+        "APCER": 0.0,
+        "BPCER": 0.0,
+        "ACER": 0.0,
+        "FAR": 0.0,
+        "FRR": 0.0,
+        "Avg_Latency_ms": 341.98,
+        "Confusion_Matrix": {
+            "TN": 4,
+            "FP": 0,
+            "FN": 0,
+            "TP": 2
+        },
+        "CM_Plot": "confusion_matrix_minifasnet_+_temporal.png"
+    },
+    "3. MiniFASNet + Liveness": {
+        "Accuracy": 1.0,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1": 1.0,
+        "ROC-AUC": 1.0,
+        "APCER": 0.0,
+        "BPCER": 0.0,
+        "ACER": 0.0,
+        "FAR": 0.0,
+        "FRR": 0.0,
+        "Avg_Latency_ms": 337.29,
+        "Confusion_Matrix": {
+            "TN": 4,
+            "FP": 0,
+            "FN": 0,
+            "TP": 2
+        },
+        "CM_Plot": "confusion_matrix_minifasnet_+_liveness.png"
+    },
+    "4. Full ILM Model (Integrated)": {
+        "Accuracy": 1.0,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1": 1.0,
+        "ROC-AUC": 1.0,
+        "APCER": 0.0,
+        "BPCER": 0.0,
+        "ACER": 0.0,
+        "FAR": 0.0,
+        "FRR": 0.0,
+        "Avg_Latency_ms": 324.12,
+        "Confusion_Matrix": {
+            "TN": 4,
+            "FP": 0,
+            "FN": 0,
+            "TP": 2
+        },
+        "CM_Plot": "confusion_matrix_full_ilm_model_integrated.png"
+    }
+}
